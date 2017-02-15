@@ -1,15 +1,15 @@
 var Backbone = require('backbone');
 
 var Contact = Backbone.Model.extend({
-
+  idAttribute: '_id'
 });
 
 var ContactCollection = Backbone.Collection.extend({
-  model: Contact
+  model: Contact,
   url: 'https://tiny-lasagna-server.herokuapp.com/collections/anniecontacts/'
 });
 
-module.export{
+module.exports = {
   Contact: Contact,
   ContactCollection: ContactCollection
-}
+};
