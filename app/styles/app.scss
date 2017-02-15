@@ -15,7 +15,30 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+body{
+  background-color: #E5B200;
+}
+.container{
+  background-color: teal;
+}
 
+label{
+  color: white;
+}
+
+.add-button{
+background-color: #9EE896;
+color: #262626;
+font-weight: bold;
+}
+
+.contact-table{
+  width: 100%;
+}
+.contact-list{
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
 .contact-entry th{
   padding: 5px 15px;
   font-size: 15px;
@@ -23,6 +46,7 @@ img {
 }
 
 .contact-entry td{
+  color: white;
   padding: 5px 15px;
   font-size: 15px;
 }
